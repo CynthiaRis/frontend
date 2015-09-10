@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Aanmelden</h1>
+<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar.
+CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+    Amsterdam.</p>
+
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+    Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.</p>
+
+
+<form>
+    <h2>Contactgegevens:</h2>
+    <label>
+     Naam:
+    <input type="text" name="naam" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Bedrijf:
+     <input type="text" name="bedrijf" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Adres:
+     <input type="text" name="adres" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Postcode:
+     <input type="text" name="postcode" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Plaats:
+     <input type="text" name="plaats" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Telefoon:
+     <input type="text" name="telefoon" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Email:
+     <input type="text" name="email" size="30" maxlength="100">
+    </label>
+    <br/>
+
+    <p>Ik wil mij aanmelden voor:
+    <br/>
+    <input type="radio" name="keuze" value="project"/>Voor een project <br/>
+    <input type="radio" name="keuze" value="stage" />
+    Als stagebedrijf
+    </p>
+
+
+<fieldset>
+    <h2>Project</h2>
+    <label>
+     Titel:
+     <input type="text" name="email" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Opdrachtomschrijving:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+    <label>
+     Doegroepomschijving:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+    <label>
+     Doelstelling/intentie van het project:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+
+    <p><strong>Geschikt voor</strong></p>
+    <input type="checkbox" name="eerste">Eerstejaars studenten
+    <br/>
+    <input type="checkbox" name="tweede">Tweedejaars studenten
+    <br/>
+    <input type="checkbox" name="derde">Derdejaars studenten
+    <br/>
+    <input type="checkbox" name="afstudeer">Afstudeer studenten
+    <br/>
+    <input type="checkbox" name="onbekend">Onbekend
+    <br/>
+    <p>Opmerking:</p>
+    <textarea name="opmerking" cols="20" rows="4">Plaats hier opmerking..</textarea>
+</fieldset>
+
+<fieldset>
+    <h2>Stage</h2>
+    <p>Geschikt voor:</p><br/>
+    <input type="checkbox" name="tweede">Tweedejaars studenten
+    <input type="checkbox" name="afstudeer">Afstudeer studenten
+    <input type="checkbox" name="onbekend">Onbekend
+    <br/>
+    <p>Hoe lang is de stage?</p><br/>
+    <input type="radio" name="weken" >10 weken
+    <input type="radio" name="weken">20 weken
+    <br/>
+    <p>Begin datum:</p><br/>
+    <input type="date" name="datum">
+    <br/>
+
+     <label>
+     Beschijving werkzaamheden:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+    <label>
+     Bedrijfsnaam:
+     <input type="text" name="bedrijfsnaam" size="30" maxlength="100">
+    </label>
+    <br/>
+     <label>
+     Adres:
+     <input type="text" name="adres" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Postcode:
+     <input type="text" name="postcode" size="30" maxlength="100">
+    </label>
+    <br/>
+     <label>
+     Plaats:
+     <input type="text" name="plaats" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Sector:
+     <input type="text" name="sector" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+     Core Business:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+    <label>
+     Opmerking:
+    </label>
+    <textarea rows="1" cols="40">
+    </textarea>
+    <br/>
+    <input type="submit">
+</fieldset>
+
+</form>
+    </article>
+        </main>
+</body>
+</html>
